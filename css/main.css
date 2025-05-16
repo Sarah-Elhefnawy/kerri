@@ -1,3 +1,9 @@
+/* Start of global style */
+:root {
+    --main-color: #e65f78;
+    --bg-main: #F1F1F1;
+}
+
 @font-face {
     font-family: primary-font;
     src: url(./../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
@@ -7,3 +13,85 @@
     font-family: secondary-font;
     src: url(./../fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
 }
+
+body {
+    font-family: secondary-font;
+}
+
+h1 {
+    font-family: primary-font;
+}
+
+.max-500 {
+    max-width: 31.25rem;
+}
+/* End of global style */
+
+/* Start of navbar */
+.navbar {
+    --bs-navbar-active-color: var(--main-color);
+    --bs-navbar-hover-color: var(--main-color);
+    --bs-navbar-color: #333;
+}
+/* End of navbar */
+
+/* Start of header */
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 
+    ), url(./../images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: primary-font;
+}
+
+h1::after {
+    content: "";
+    /* animation: type-writer 5s infinite;
+    -webkit-animation: type-writer 5s infinite; */
+}
+
+.btn-custom {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-padding-x: 1.875rem;
+    --bs-btn-padding-y: .625rem;
+    --bs-btn-border-radius: 5.625rem;
+}   
+
+.pill {
+    width: 2.1875rem;
+    height: 4.375rem;
+    border: .125rem solid #fff;
+    border-radius: 1.875rem;
+    -webkit-border-radius: 1.875rem;
+    -moz-border-radius: 1.875rem;
+    -ms-border-radius: 1.875rem;
+    -o-border-radius: 1.875rem;
+
+    position: absolute;
+    bottom: 3.125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    /* animation: jump 1s infinite alternate;
+    -webkit-animation: jump 1s infinite alternate; */
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.dot {
+    width: .25rem;
+    height: .5625rem;
+    background-color: #fff;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+/* End of header */

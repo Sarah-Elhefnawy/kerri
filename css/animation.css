@@ -1,0 +1,177 @@
+@keyframes jump {
+    0% {
+        bottom: 1.875rem;
+    }
+    50% {
+        bottom: 3.75rem;
+    }
+    100% {
+        bottom: 1.875rem;
+    }
+}
+
+@keyframes type-writer {
+    0% {
+        content: " |";
+    }
+    
+    3% {
+        content: " D|";
+    }
+
+    5% {
+        content: " De|";
+    }
+
+    7% {
+        content: " Dev|";
+    }
+
+    10% {
+        content: " Deve|";
+    }
+
+    13% {
+        content: " Devel|";
+    }
+
+    15% {
+        content: " Develo|";
+    }
+
+    17% {
+        content: " Develop|";
+    }
+
+    20% {
+        content: " Develope|";
+    }
+
+    23% {
+        content: " Developer|";
+    }
+
+    25% {
+        content: " Develope|";
+    }
+
+    27% {
+        content: " Develop|";
+    }
+
+    30% {
+        content: " Develo|";
+    }
+
+    33% {
+        content: " Devel|";
+    }
+
+    35% {
+        content: " Deve|";
+    }
+
+    37% {
+        content: " Dev|";
+    }
+
+    40% {
+        content: " De|";
+    }
+
+    43% {
+        content: " Des|";
+    }
+
+    45% {
+        content: " Desi|";
+    }
+
+    47% {
+        content: " Desig|";
+    }
+
+    50% {
+        content: " Design|";
+    }
+
+    53% {
+        content: " Designe|";
+    }
+
+    55% {
+        content: " Designer|";
+    }
+
+    57% {
+        content: " Designe|";
+    }
+
+    60% {
+        content: " Design|";
+    }
+
+    63% {
+        content: " Desig|";
+    }
+
+    65% {
+        content: " Desi|";
+    }
+
+    67% {
+        content: " Des|";
+    }
+
+    70% {
+        content: " De|";
+    }
+
+    73% {
+        content: " Dev|";
+    }
+
+    75% {
+        content: " Deve|";
+    }
+
+    77% {
+        content: " Devel|";
+    }
+
+    80% {
+        content: " Develo|";
+    }
+
+    83% {
+        content: " Develop|";
+    }
+
+    85% {
+        content: " Developm|";
+    }
+
+    87% {
+        content: " Developme|";
+    }
+
+    90% {
+        content: " Development|";
+    }
+
+    93% {
+        content: " Developm|";
+    }
+
+    95% {
+        content: " Develo|";
+    }
+
+    97% {
+        content: " Deve|";
+    }
+
+    100% {
+        content: " De|";
+    }
+}
