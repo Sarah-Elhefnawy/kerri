@@ -95,3 +95,41 @@ h1::after {
     -o-border-radius: 30%;
 }
 /* End of header */
+
+/* Start of about */
+.about .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: .125rem solid #a29494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: .625rem;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.about .icon:hover {
+    border-color: var(--main-color);
+}
+
+.about .icon i {
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+}
+
+.about .icon:hover i {
+    color: var(--main-color);
+}
+/* End of about */
