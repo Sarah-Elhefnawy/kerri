@@ -148,3 +148,69 @@ h1::after {
     background-color: var(--main-color);
 }
 /* End of client */
+
+/* Start of work */
+.work .nav {
+    justify-content: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.nav-pills .nav-link {
+    border-radius: 3.125rem;
+    -webkit-border-radius: 3.125rem;
+    -moz-border-radius: 3.125rem;
+    -ms-border-radius: 3.125rem;
+    -o-border-radius: 3.125rem;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #000;
+}
+
+.work .fig-caption {
+    position: absolute;
+    top: 125%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: top 0.5s ease;
+    -webkit-transition: top 0.5s ease;
+    -moz-transition: top 0.5s ease;
+    -ms-transition: top 0.5s ease;
+    -o-transition: top 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.work figure.inner::before  {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.work figure.inner:hover::before {
+    opacity: 1;
+}
+
+.work figure.inner:hover .fig-caption {
+    top: 0;
+}
+/* End of work */
