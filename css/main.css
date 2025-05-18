@@ -25,6 +25,10 @@ h1 {
 .max-500 {
     max-width: 31.25rem;
 }
+
+.bg-main {
+    background-color: var(--bg-main);
+}
 /* End of global style */
 
 /* Start of navbar */
@@ -133,3 +137,14 @@ h1::after {
     color: var(--main-color);
 }
 /* End of about */
+
+/* Start of client */
+.client .carousel-icon {
+    color: var(--main-color);
+}
+
+.client .carousel-indicators [data-bs-target] {
+    height: 7px;
+    background-color: var(--main-color);
+}
+/* End of client */
